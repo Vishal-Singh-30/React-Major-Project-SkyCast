@@ -15,8 +15,7 @@ SkyCast is a weather application built with React, Material UI, and the OpenWeat
 - **Frontend**:
   - React
   - Material UI
-  - Tailwind CSS (if used)
-  - Vite (if used for development)
+  - Vite
 
 - **API**:
   - OpenWeatherMap API
@@ -55,6 +54,31 @@ You need an API key from OpenWeatherMap to fetch weather data. Replace the `API_
 
 ```javascript
 const API_KEY = "your_openweathermap_api_key";
-```
+
+
+## Project Structure
+
+- `src/`
+  - `components/`
+    - `SearchBox.jsx`: Component for searching weather by city.
+    - `InfoBox.jsx`: Component for displaying weather information.
+    - `WeatherApp.jsx`: Main component that combines `SearchBox` and `InfoBox`.
+  - `App.jsx`: Entry point for the application.
+  - `index.jsx`: ReactDOM rendering the application.
+  - `styles/`
+    - `WeatherApp.css`: CSS styles for the application.
+    - `SearchBox.css`: CSS styles for the `SearchBox` component.
+    - `InfoBox.css`: CSS styles for the `InfoBox` component.
+
+## Contributing
+
+Feel free to open issues or submit pull requests. Contributions are welcome!
+
+
+## Acknowledgments
+
+- [OpenWeatherMap](https://openweathermap.org/) for providing weather data.
+- [Material UI](https://mui.com/) for the UI components.
+- [Unsplash](https://unsplash.com/) for background images.
 
 
