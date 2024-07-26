@@ -54,6 +54,7 @@ You need an API key from OpenWeatherMap to fetch weather data. Replace the `API_
 
 ```javascript
 const API_KEY = "your_openweathermap_api_key";
+```
 
 
 ## Project Structure
