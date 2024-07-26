@@ -1,1 +1,0 @@
-# REACT-Major-Project-SkyCast-Weather-App
